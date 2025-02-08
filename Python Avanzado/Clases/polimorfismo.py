@@ -24,7 +24,7 @@ dar_voz(animal)
 dar_voz(perro)
 dar_voz(gato)'''
 '''
-#Sobrecarga y sobreescritura: Unoagrega mas variacion y el otro mas informacion
+#Sobrecarga y sobreescritura: Uno agrega mas variacion y el otro mas informacion
 
 #Funcion con 4 parametros
 def multiplicacion(a, b, c, d):
@@ -43,7 +43,7 @@ def multiplicacion(a, b, c=None, d=None):
             print(a * b * c)
     else:
         print(a * b)
-multiplicacion(10, 3, 10, 2)        
+multiplicacion(10, 3, 10, 2)
             
 
 

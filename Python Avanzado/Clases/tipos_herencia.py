@@ -1,6 +1,6 @@
 '''Herencia simple o unica, multiple, multinivel,
 jerarquica e hibrida.'''
-# Clas object: Clase raiz predefinida de python q hereda a todas las demas clases q creamos.
+# Class object: Clase raiz predefinida de python q hereda a todas las demas clases q creamos.
 # Herencia simple o unica: Proviene de una unica superclase
 class A(object):
     pass
