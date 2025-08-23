@@ -1,0 +1,1718 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "suma",
+        "description": "suma",
+        "detail": "suma",
+        "documentation": {}
+    },
+    {
+        "label": "random'''",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random'''",
+        "description": "random'''",
+        "detail": "random'''",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "paquete.modulo2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "paquete.modulo2",
+        "description": "paquete.modulo2",
+        "detail": "paquete.modulo2",
+        "documentation": {}
+    },
+    {
+        "label": "paquete.subpaquete.modulo4",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "paquete.subpaquete.modulo4",
+        "description": "paquete.subpaquete.modulo4",
+        "detail": "paquete.subpaquete.modulo4",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "paquete",
+        "description": "paquete",
+        "isExtraImport": true,
+        "detail": "paquete",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "keyword",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "keyword",
+        "description": "keyword",
+        "detail": "keyword",
+        "documentation": {}
+    },
+    {
+        "label": "funciones",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "funciones",
+        "description": "funciones",
+        "detail": "funciones",
+        "documentation": {}
+    },
+    {
+        "label": "medicamentos",
+        "kind": 5,
+        "importPath": "Pandas.medicamentos",
+        "description": "Pandas.medicamentos",
+        "peekOfCode": "medicamentos = pd.read_json('D:\\CDP\\Pandas\\medicamentos_pos.json')\nprint(medicamentos)",
+        "detail": "Pandas.medicamentos",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.abstraccion",
+        "description": "Python Avanzado.Clases.abstraccion",
+        "peekOfCode": "class Animal(ABC):\n    @abstractmethod\n    def hablar(self):\n        pass\nclass Perro(Animal):\n    def hablar(self):\n        print('Woof!')\nclass Gato(Animal):\n    def hablar(self):\n        print('Meow!')       ",
+        "detail": "Python Avanzado.Clases.abstraccion",
+        "documentation": {}
+    },
+    {
+        "label": "Perro",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.abstraccion",
+        "description": "Python Avanzado.Clases.abstraccion",
+        "peekOfCode": "class Perro(Animal):\n    def hablar(self):\n        print('Woof!')\nclass Gato(Animal):\n    def hablar(self):\n        print('Meow!')       \nperro = Perro()\nperro.hablar()\ngato = Gato()\ngato.hablar()",
+        "detail": "Python Avanzado.Clases.abstraccion",
+        "documentation": {}
+    },
+    {
+        "label": "Gato",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.abstraccion",
+        "description": "Python Avanzado.Clases.abstraccion",
+        "peekOfCode": "class Gato(Animal):\n    def hablar(self):\n        print('Meow!')       \nperro = Perro()\nperro.hablar()\ngato = Gato()\ngato.hablar()",
+        "detail": "Python Avanzado.Clases.abstraccion",
+        "documentation": {}
+    },
+    {
+        "label": "perro",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.abstraccion",
+        "description": "Python Avanzado.Clases.abstraccion",
+        "peekOfCode": "perro = Perro()\nperro.hablar()\ngato = Gato()\ngato.hablar()",
+        "detail": "Python Avanzado.Clases.abstraccion",
+        "documentation": {}
+    },
+    {
+        "label": "gato",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.abstraccion",
+        "description": "Python Avanzado.Clases.abstraccion",
+        "peekOfCode": "gato = Gato()\ngato.hablar()",
+        "detail": "Python Avanzado.Clases.abstraccion",
+        "documentation": {}
+    },
+    {
+        "label": "Vehiculo",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "description": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "peekOfCode": "class Vehiculo():\n    # Atributos\n    color = None # None quiere decir que no tiene valor la variable\n    longitud = None\n    ruedas = 4\n    # Metodos\n    def arrancar(self):\n        print('El motor ha arrancado')\n    def detener(self):\n        print('El motor esta detenido')",
+        "detail": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "documentation": {}
+    },
+    {
+        "label": "objeto_vehiculo_1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "description": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "peekOfCode": "objeto_vehiculo_1 = Vehiculo()\nobjeto_vehiculo_2 = Vehiculo()\n# Acceder al atributo de un objeto\nprint(objeto_vehiculo_1.ruedas)\n# Almacenar el atributo en una variable\nruedas_vehiculo = objeto_vehiculo_1.ruedas\n# Reasignar los valores a los atributos de objetos\nobjeto_vehiculo_1.color = 'Negro'\nobjeto_vehiculo_2.color = 'Rojo'\nprint(objeto_vehiculo_1.color)",
+        "detail": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "documentation": {}
+    },
+    {
+        "label": "objeto_vehiculo_2",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "description": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "peekOfCode": "objeto_vehiculo_2 = Vehiculo()\n# Acceder al atributo de un objeto\nprint(objeto_vehiculo_1.ruedas)\n# Almacenar el atributo en una variable\nruedas_vehiculo = objeto_vehiculo_1.ruedas\n# Reasignar los valores a los atributos de objetos\nobjeto_vehiculo_1.color = 'Negro'\nobjeto_vehiculo_2.color = 'Rojo'\nprint(objeto_vehiculo_1.color)\nprint(objeto_vehiculo_2.color)",
+        "detail": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "documentation": {}
+    },
+    {
+        "label": "ruedas_vehiculo",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "description": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "peekOfCode": "ruedas_vehiculo = objeto_vehiculo_1.ruedas\n# Reasignar los valores a los atributos de objetos\nobjeto_vehiculo_1.color = 'Negro'\nobjeto_vehiculo_2.color = 'Rojo'\nprint(objeto_vehiculo_1.color)\nprint(objeto_vehiculo_2.color)\n# Crear atributos inexistentes en la clase\nobjeto_vehiculo_1.velocidad_maxima = 160\nprint(objeto_vehiculo_1.velocidad_maxima)\n# Problemas por atributos externos a la clase",
+        "detail": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "documentation": {}
+    },
+    {
+        "label": "objeto_vehiculo_1.color",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "description": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "peekOfCode": "objeto_vehiculo_1.color = 'Negro'\nobjeto_vehiculo_2.color = 'Rojo'\nprint(objeto_vehiculo_1.color)\nprint(objeto_vehiculo_2.color)\n# Crear atributos inexistentes en la clase\nobjeto_vehiculo_1.velocidad_maxima = 160\nprint(objeto_vehiculo_1.velocidad_maxima)\n# Problemas por atributos externos a la clase\n# Llamar a un metodo de un objeto\nobjeto_vehiculo_1.arrancar()",
+        "detail": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "documentation": {}
+    },
+    {
+        "label": "objeto_vehiculo_2.color",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "description": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "peekOfCode": "objeto_vehiculo_2.color = 'Rojo'\nprint(objeto_vehiculo_1.color)\nprint(objeto_vehiculo_2.color)\n# Crear atributos inexistentes en la clase\nobjeto_vehiculo_1.velocidad_maxima = 160\nprint(objeto_vehiculo_1.velocidad_maxima)\n# Problemas por atributos externos a la clase\n# Llamar a un metodo de un objeto\nobjeto_vehiculo_1.arrancar()",
+        "detail": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "documentation": {}
+    },
+    {
+        "label": "objeto_vehiculo_1.velocidad_maxima",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "description": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "peekOfCode": "objeto_vehiculo_1.velocidad_maxima = 160\nprint(objeto_vehiculo_1.velocidad_maxima)\n# Problemas por atributos externos a la clase\n# Llamar a un metodo de un objeto\nobjeto_vehiculo_1.arrancar()",
+        "detail": "Python Avanzado.Clases.acceso_atributos_metodos",
+        "documentation": {}
+    },
+    {
+        "label": "Ciudadano",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "description": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "peekOfCode": "class Ciudadano:\n    def __init__(self, nombre, profesion):\n        self.nombre = nombre\n        self.profesion = profesion\n    def saludar(self):\n        print(f'Hola, soy {self.nombre}. Mi profesion es {self.profesion}.')\nclass Medico(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Médico')\n    def curar(self):",
+        "detail": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "documentation": {}
+    },
+    {
+        "label": "Medico",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "description": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "peekOfCode": "class Medico(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Médico')\n    def curar(self):\n        print('Cura cualquier daño')\nclass Qf(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Químico Farmacéutico')\nclass Policia(Ciudadano):\n    def __init__(self, nombre):",
+        "detail": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "documentation": {}
+    },
+    {
+        "label": "Qf",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "description": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "peekOfCode": "class Qf(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Químico Farmacéutico')\nclass Policia(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Policía')\npers1 = Ciudadano('Ana', 'Informatica')\npers2 = Medico('Gabriel')\npers3 = Qf('Ger')\npers4 = Policia('Daniel')",
+        "detail": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "documentation": {}
+    },
+    {
+        "label": "Policia",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "description": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "peekOfCode": "class Policia(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Policía')\npers1 = Ciudadano('Ana', 'Informatica')\npers2 = Medico('Gabriel')\npers3 = Qf('Ger')\npers4 = Policia('Daniel')\npers1.saludar()\npers2.curar()\npers3.saludar()",
+        "detail": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "documentation": {}
+    },
+    {
+        "label": "pers1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "description": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "peekOfCode": "pers1 = Ciudadano('Ana', 'Informatica')\npers2 = Medico('Gabriel')\npers3 = Qf('Ger')\npers4 = Policia('Daniel')\npers1.saludar()\npers2.curar()\npers3.saludar()\npers4.saludar()",
+        "detail": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "documentation": {}
+    },
+    {
+        "label": "pers2",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "description": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "peekOfCode": "pers2 = Medico('Gabriel')\npers3 = Qf('Ger')\npers4 = Policia('Daniel')\npers1.saludar()\npers2.curar()\npers3.saludar()\npers4.saludar()",
+        "detail": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "documentation": {}
+    },
+    {
+        "label": "pers3",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "description": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "peekOfCode": "pers3 = Qf('Ger')\npers4 = Policia('Daniel')\npers1.saludar()\npers2.curar()\npers3.saludar()\npers4.saludar()",
+        "detail": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "documentation": {}
+    },
+    {
+        "label": "pers4",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "description": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "peekOfCode": "pers4 = Policia('Daniel')\npers1.saludar()\npers2.curar()\npers3.saludar()\npers4.saludar()",
+        "detail": "Python Avanzado.Clases.añadir_caracteristicas_subclases",
+        "documentation": {}
+    },
+    {
+        "label": "NombreClase",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.clases_en_python_p1",
+        "description": "Python Avanzado.Clases.clases_en_python_p1",
+        "peekOfCode": "class NombreClase():\n    # Bloque de codigo\n    # Atributos: Son variables que estan dentro de una clase.\n    atributo_1 = 'Valor 1'\n    atributo_2 = 'Valor 2'\n    # Metodos: Son funciones que estan dentro de una clase.\n    def metodo_1(self):\n        print('Metodo de clase')\n    def metodo_2(self):\n        print('Metodo de clase')",
+        "detail": "Python Avanzado.Clases.clases_en_python_p1",
+        "documentation": {}
+    },
+    {
+        "label": "Vehiculo",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.clases_en_python_p2",
+        "description": "Python Avanzado.Clases.clases_en_python_p2",
+        "peekOfCode": "class Vehiculo():\n    # Atributos\n    color = None # None quiere decir que no tiene valor la variable\n    longitud = None\n    ruedas = 4\n    # Metodos\n    def arrancar(self):\n        print('El motor ha arrancado')\n    def detener(self):\n        print('El motor esta detenido')",
+        "detail": "Python Avanzado.Clases.clases_en_python_p2",
+        "documentation": {}
+    },
+    {
+        "label": "Jugador",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "description": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "peekOfCode": "class Jugador():\n    # Atributo de clase\n    edad = None\n    # Metodo\n    def permitir_acceso(self):\n        print('Puede entrar')\n    def denegar_acceso(self):\n        print('Acceso denegado')\n    def comprobar_edad(self):\n        if self.edad < 18:",
+        "detail": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "documentation": {}
+    },
+    {
+        "label": "jugador1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "description": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "peekOfCode": "jugador1 = Jugador()\njugador2 = Jugador()\n# Llamado al metodo\njugador1.edad = 15\njugador2.edad = 60\njugador1.comprobar_edad()\njugador2.comprobar_edad()\n# Identidad de los objeto: Podemos referirnos a ellos de forma inequivoca por esta identidad.",
+        "detail": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "documentation": {}
+    },
+    {
+        "label": "jugador2",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "description": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "peekOfCode": "jugador2 = Jugador()\n# Llamado al metodo\njugador1.edad = 15\njugador2.edad = 60\njugador1.comprobar_edad()\njugador2.comprobar_edad()\n# Identidad de los objeto: Podemos referirnos a ellos de forma inequivoca por esta identidad.",
+        "detail": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "documentation": {}
+    },
+    {
+        "label": "jugador1.edad",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "description": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "peekOfCode": "jugador1.edad = 15\njugador2.edad = 60\njugador1.comprobar_edad()\njugador2.comprobar_edad()\n# Identidad de los objeto: Podemos referirnos a ellos de forma inequivoca por esta identidad.",
+        "detail": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "documentation": {}
+    },
+    {
+        "label": "jugador2.edad",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "description": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "peekOfCode": "jugador2.edad = 60\njugador1.comprobar_edad()\njugador2.comprobar_edad()\n# Identidad de los objeto: Podemos referirnos a ellos de forma inequivoca por esta identidad.",
+        "detail": "Python Avanzado.Clases.estado_comportamiento_objetos",
+        "documentation": {}
+    },
+    {
+        "label": "Ciudadano",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.herencia_clases",
+        "description": "Python Avanzado.Clases.herencia_clases",
+        "peekOfCode": "class Ciudadano:\n    def __init__(self, nombre, profesion):\n        self.nombre = nombre\n        self.profesion = profesion\n    def saludar(self):\n        print(f'Hola, soy {self.nombre}. Mi profesion es {self.profesion}.')\nclass Medico:\n    def __init__(self, nombre):\n        self.nombre = nombre\n        self.profesion = 'Medico'",
+        "detail": "Python Avanzado.Clases.herencia_clases",
+        "documentation": {}
+    },
+    {
+        "label": "Medico",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.herencia_clases",
+        "description": "Python Avanzado.Clases.herencia_clases",
+        "peekOfCode": "class Medico:\n    def __init__(self, nombre):\n        self.nombre = nombre\n        self.profesion = 'Medico'\n    def sludar(self):\n        print(f'Hola soy {self.nombre}. Mi profesion es {self.profesion}.')\n# Clase base y clase derivada\n'''Clase Base: clase principal o la que se hiso primero\nClase Derivada: Clase que hereda las caracteristicas de la clase base.'''\n# Funcion predefinida super(). se hace poniendo unos () en la clase derivada.",
+        "detail": "Python Avanzado.Clases.herencia_clases",
+        "documentation": {}
+    },
+    {
+        "label": "Qf",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.herencia_clases",
+        "description": "Python Avanzado.Clases.herencia_clases",
+        "peekOfCode": "class Qf(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Químico Farmacéutico')\nclass Policia(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Policía')\npers1 = Ciudadano('Ana', 'Informatica')\npers2 = Medico('Gabriel')\npers3 = Qf('Ger')\npers4 = Policia('Daniel')",
+        "detail": "Python Avanzado.Clases.herencia_clases",
+        "documentation": {}
+    },
+    {
+        "label": "Policia",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.herencia_clases",
+        "description": "Python Avanzado.Clases.herencia_clases",
+        "peekOfCode": "class Policia(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Policía')\npers1 = Ciudadano('Ana', 'Informatica')\npers2 = Medico('Gabriel')\npers3 = Qf('Ger')\npers4 = Policia('Daniel')\npers1.saludar()\npers2.sludar()\npers3.saludar()",
+        "detail": "Python Avanzado.Clases.herencia_clases",
+        "documentation": {}
+    },
+    {
+        "label": "pers1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.herencia_clases",
+        "description": "Python Avanzado.Clases.herencia_clases",
+        "peekOfCode": "pers1 = Ciudadano('Ana', 'Informatica')\npers2 = Medico('Gabriel')\npers3 = Qf('Ger')\npers4 = Policia('Daniel')\npers1.saludar()\npers2.sludar()\npers3.saludar()\npers4.saludar()",
+        "detail": "Python Avanzado.Clases.herencia_clases",
+        "documentation": {}
+    },
+    {
+        "label": "pers2",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.herencia_clases",
+        "description": "Python Avanzado.Clases.herencia_clases",
+        "peekOfCode": "pers2 = Medico('Gabriel')\npers3 = Qf('Ger')\npers4 = Policia('Daniel')\npers1.saludar()\npers2.sludar()\npers3.saludar()\npers4.saludar()",
+        "detail": "Python Avanzado.Clases.herencia_clases",
+        "documentation": {}
+    },
+    {
+        "label": "pers3",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.herencia_clases",
+        "description": "Python Avanzado.Clases.herencia_clases",
+        "peekOfCode": "pers3 = Qf('Ger')\npers4 = Policia('Daniel')\npers1.saludar()\npers2.sludar()\npers3.saludar()\npers4.saludar()",
+        "detail": "Python Avanzado.Clases.herencia_clases",
+        "documentation": {}
+    },
+    {
+        "label": "pers4",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.herencia_clases",
+        "description": "Python Avanzado.Clases.herencia_clases",
+        "peekOfCode": "pers4 = Policia('Daniel')\npers1.saludar()\npers2.sludar()\npers3.saludar()\npers4.saludar()",
+        "detail": "Python Avanzado.Clases.herencia_clases",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.introduccion",
+        "description": "Python Avanzado.Clases.introduccion",
+        "peekOfCode": "class Usuario:\n    id = 1\n# Acceder al atributo publico\nUsuario.id = 1000\n# Instanciamos un objeto\nusuario_1 = Usuario()\n# Comprobamos el valor de id\nprint(usuario_1.id)\nusuario_1 = Usuario(1, 'Enrique', ' Ateortua')\nprint(usuario_1._nombre)",
+        "detail": "Python Avanzado.Clases.introduccion",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.introduccion",
+        "description": "Python Avanzado.Clases.introduccion",
+        "peekOfCode": "class Usuario:\n    def __init__(self, id, nombre, edad):\n        self.id = id\n        self.nombre = nombre\n        self.__edad = edad\n    # Getter\n    def obtener_edad(self):\n        return self.__edad\n    # Setter\n    def establecer_edad(self, edad):",
+        "detail": "Python Avanzado.Clases.introduccion",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario.id",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.introduccion",
+        "description": "Python Avanzado.Clases.introduccion",
+        "peekOfCode": "Usuario.id = 1000\n# Instanciamos un objeto\nusuario_1 = Usuario()\n# Comprobamos el valor de id\nprint(usuario_1.id)\nusuario_1 = Usuario(1, 'Enrique', ' Ateortua')\nprint(usuario_1._nombre)\n#Interfaz publica: Codigo para que todos lo puedan usar\n#Publico y no publico: Codigo para uso comun o privado.\n#Metodo publico para acceso privado:",
+        "detail": "Python Avanzado.Clases.introduccion",
+        "documentation": {}
+    },
+    {
+        "label": "usuario_1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.introduccion",
+        "description": "Python Avanzado.Clases.introduccion",
+        "peekOfCode": "usuario_1 = Usuario()\n# Comprobamos el valor de id\nprint(usuario_1.id)\nusuario_1 = Usuario(1, 'Enrique', ' Ateortua')\nprint(usuario_1._nombre)\n#Interfaz publica: Codigo para que todos lo puedan usar\n#Publico y no publico: Codigo para uso comun o privado.\n#Metodo publico para acceso privado:\nusuario_1 = Usuario(1, 'Enrique', ' Marquez')\nusuario_1.muestra_apellido()",
+        "detail": "Python Avanzado.Clases.introduccion",
+        "documentation": {}
+    },
+    {
+        "label": "usuario_1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.introduccion",
+        "description": "Python Avanzado.Clases.introduccion",
+        "peekOfCode": "usuario_1 = Usuario(1, 'Enrique', ' Ateortua')\nprint(usuario_1._nombre)\n#Interfaz publica: Codigo para que todos lo puedan usar\n#Publico y no publico: Codigo para uso comun o privado.\n#Metodo publico para acceso privado:\nusuario_1 = Usuario(1, 'Enrique', ' Marquez')\nusuario_1.muestra_apellido()\n# Name mangling: Modificacion de nombres de variables o metodo para evitar conflicto con nombres q se le ponga al codigo.\nusuario_1 = Usuario(1, 'Ger', 'Col')\nprint(usuario_1._Usuario__apellido)'''",
+        "detail": "Python Avanzado.Clases.introduccion",
+        "documentation": {}
+    },
+    {
+        "label": "usuario_1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.introduccion",
+        "description": "Python Avanzado.Clases.introduccion",
+        "peekOfCode": "usuario_1 = Usuario(1, 'Enrique', ' Marquez')\nusuario_1.muestra_apellido()\n# Name mangling: Modificacion de nombres de variables o metodo para evitar conflicto con nombres q se le ponga al codigo.\nusuario_1 = Usuario(1, 'Ger', 'Col')\nprint(usuario_1._Usuario__apellido)'''\n# Metodos getter y setters: Obtener y establecer\nclass Usuario:\n    def __init__(self, id, nombre, edad):\n        self.id = id\n        self.nombre = nombre",
+        "detail": "Python Avanzado.Clases.introduccion",
+        "documentation": {}
+    },
+    {
+        "label": "usuario_1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.introduccion",
+        "description": "Python Avanzado.Clases.introduccion",
+        "peekOfCode": "usuario_1 = Usuario(1, 'Ger', 'Col')\nprint(usuario_1._Usuario__apellido)'''\n# Metodos getter y setters: Obtener y establecer\nclass Usuario:\n    def __init__(self, id, nombre, edad):\n        self.id = id\n        self.nombre = nombre\n        self.__edad = edad\n    # Getter\n    def obtener_edad(self):",
+        "detail": "Python Avanzado.Clases.introduccion",
+        "documentation": {}
+    },
+    {
+        "label": "usurrio_1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.introduccion",
+        "description": "Python Avanzado.Clases.introduccion",
+        "peekOfCode": "usurrio_1 = Usuario(1, 'Ger', 27)\n'''# Almacenamos el valor de retorno\nedad_usuario = usurrio_1.obtener_edad()\nprint(edad_usuario)'''\n# Establecer edad\nusurrio_1.establecer_edad(28)",
+        "detail": "Python Avanzado.Clases.introduccion",
+        "documentation": {}
+    },
+    {
+        "label": "edad_usuario",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.introduccion",
+        "description": "Python Avanzado.Clases.introduccion",
+        "peekOfCode": "edad_usuario = usurrio_1.obtener_edad()\nprint(edad_usuario)'''\n# Establecer edad\nusurrio_1.establecer_edad(28)",
+        "detail": "Python Avanzado.Clases.introduccion",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.metodo_init_",
+        "description": "Python Avanzado.Clases.metodo_init_",
+        "peekOfCode": "class Usuario:\n    hora_ultima_sesion = None\n    def __init__(self, \n                 nombre, \n                 apellidos, \n                 edad, \n                 direccion, \n                 telefono):\n        self.nombre = nombre\n        self.apellidos = apellidos",
+        "detail": "Python Avanzado.Clases.metodo_init_",
+        "documentation": {}
+    },
+    {
+        "label": "usuario1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.metodo_init_",
+        "description": "Python Avanzado.Clases.metodo_init_",
+        "peekOfCode": "usuario1 = Usuario('Germán', 'Colón Carrasquill', 27, 'Medellín', '28827323')\nprint(usuario1.nombre)\n# Reasignación \nusuario1.nombre = 'Ger'\nusuario1.hora_ultima_sesion = ('06/11/2024')\nprint(usuario1.nombre)\nprint(usuario1.hora_ultima_sesion)",
+        "detail": "Python Avanzado.Clases.metodo_init_",
+        "documentation": {}
+    },
+    {
+        "label": "usuario1.nombre",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.metodo_init_",
+        "description": "Python Avanzado.Clases.metodo_init_",
+        "peekOfCode": "usuario1.nombre = 'Ger'\nusuario1.hora_ultima_sesion = ('06/11/2024')\nprint(usuario1.nombre)\nprint(usuario1.hora_ultima_sesion)",
+        "detail": "Python Avanzado.Clases.metodo_init_",
+        "documentation": {}
+    },
+    {
+        "label": "usuario1.hora_ultima_sesion",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.metodo_init_",
+        "description": "Python Avanzado.Clases.metodo_init_",
+        "peekOfCode": "usuario1.hora_ultima_sesion = ('06/11/2024')\nprint(usuario1.nombre)\nprint(usuario1.hora_ultima_sesion)",
+        "detail": "Python Avanzado.Clases.metodo_init_",
+        "documentation": {}
+    },
+    {
+        "label": "NombreClase",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.objetos",
+        "description": "Python Avanzado.Clases.objetos",
+        "peekOfCode": "class NombreClase():\n    # Atributo de clase\n    atributo_1 = 'Valor 1'\n    atributo_2 = 'Valor 2'\n    # Metodo\n    def metodo_1(self):\n        print('Metodo de clase')\n# Objeto creado a partir de la clase\nobjeto = NombreClase()\n# Llamado al metodo",
+        "detail": "Python Avanzado.Clases.objetos",
+        "documentation": {}
+    },
+    {
+        "label": "objeto",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.objetos",
+        "description": "Python Avanzado.Clases.objetos",
+        "peekOfCode": "objeto = NombreClase()\n# Llamado al metodo\nobjeto.metodo_1()",
+        "detail": "Python Avanzado.Clases.objetos",
+        "documentation": {}
+    },
+    {
+        "label": "Perro",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.polimorfismo",
+        "description": "Python Avanzado.Clases.polimorfismo",
+        "peekOfCode": "class Perro(Animal):\n    def hablar(self):\n        print('Wooof!!.')\nclass Gato(Animal):\n    def hablar(self):\n        print('Meow!!.')\nanimal = Animal()\nperro = Perro()\ngato = Gato()\nanimal.hablar()",
+        "detail": "Python Avanzado.Clases.polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "Gato",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.polimorfismo",
+        "description": "Python Avanzado.Clases.polimorfismo",
+        "peekOfCode": "class Gato(Animal):\n    def hablar(self):\n        print('Meow!!.')\nanimal = Animal()\nperro = Perro()\ngato = Gato()\nanimal.hablar()\nperro.hablar()\ngato.hablar()\n#Polimorfismo con funciones",
+        "detail": "Python Avanzado.Clases.polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "dar_voz",
+        "kind": 2,
+        "importPath": "Python Avanzado.Clases.polimorfismo",
+        "description": "Python Avanzado.Clases.polimorfismo",
+        "peekOfCode": "def dar_voz(objeto):\n    objeto.hablar()\ndar_voz(animal)\ndar_voz(perro)\ndar_voz(gato)'''\n'''\n#Sobrecarga y sobreescritura: Unoagrega mas variacion y el otro mas informacion\n#Funcion con 4 parametros\ndef multiplicacion(a, b, c, d):\n    print(a*b*c*d)",
+        "detail": "Python Avanzado.Clases.polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicacion",
+        "kind": 2,
+        "importPath": "Python Avanzado.Clases.polimorfismo",
+        "description": "Python Avanzado.Clases.polimorfismo",
+        "peekOfCode": "def multiplicacion(a, b, c, d):\n    print(a*b*c*d)\nmultiplicacion(10, 2, 3, 6)\n #Funcion con 2 paremetros\ndef multiplicacion(a, b):\n    print(a * b)\nmultiplicacion(5, 7,)'''\ndef multiplicacion(a, b, c=None, d=None):\n    if c is not None:\n        if d is not None:",
+        "detail": "Python Avanzado.Clases.polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicacion",
+        "kind": 2,
+        "importPath": "Python Avanzado.Clases.polimorfismo",
+        "description": "Python Avanzado.Clases.polimorfismo",
+        "peekOfCode": "def multiplicacion(a, b):\n    print(a * b)\nmultiplicacion(5, 7,)'''\ndef multiplicacion(a, b, c=None, d=None):\n    if c is not None:\n        if d is not None:\n            print(a * b * c * d)\n        else:\n            print(a * b * c)\n    else:",
+        "detail": "Python Avanzado.Clases.polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicacion",
+        "kind": 2,
+        "importPath": "Python Avanzado.Clases.polimorfismo",
+        "description": "Python Avanzado.Clases.polimorfismo",
+        "peekOfCode": "def multiplicacion(a, b, c=None, d=None):\n    if c is not None:\n        if d is not None:\n            print(a * b * c * d)\n        else:\n            print(a * b * c)\n    else:\n        print(a * b)\nmultiplicacion(10, 3, 10, 2)",
+        "detail": "Python Avanzado.Clases.polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "animal",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.polimorfismo",
+        "description": "Python Avanzado.Clases.polimorfismo",
+        "peekOfCode": "animal = Animal()\nperro = Perro()\ngato = Gato()\nanimal.hablar()\nperro.hablar()\ngato.hablar()\n#Polimorfismo con funciones\ndef dar_voz(objeto):\n    objeto.hablar()\ndar_voz(animal)",
+        "detail": "Python Avanzado.Clases.polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "perro",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.polimorfismo",
+        "description": "Python Avanzado.Clases.polimorfismo",
+        "peekOfCode": "perro = Perro()\ngato = Gato()\nanimal.hablar()\nperro.hablar()\ngato.hablar()\n#Polimorfismo con funciones\ndef dar_voz(objeto):\n    objeto.hablar()\ndar_voz(animal)\ndar_voz(perro)",
+        "detail": "Python Avanzado.Clases.polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "gato",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.polimorfismo",
+        "description": "Python Avanzado.Clases.polimorfismo",
+        "peekOfCode": "gato = Gato()\nanimal.hablar()\nperro.hablar()\ngato.hablar()\n#Polimorfismo con funciones\ndef dar_voz(objeto):\n    objeto.hablar()\ndar_voz(animal)\ndar_voz(perro)\ndar_voz(gato)'''",
+        "detail": "Python Avanzado.Clases.polimorfismo",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.self",
+        "description": "Python Avanzado.Clases.self",
+        "peekOfCode": "class Usuario:\n    hora_ultima_sesion = None\n    def __init__(self, \n                 nombre, \n                 apellidos, \n                 edad, \n                 direccion, \n                 telefono):\n        self.nombre = nombre\n        self.apellidos = apellidos",
+        "detail": "Python Avanzado.Clases.self",
+        "documentation": {}
+    },
+    {
+        "label": "usuario1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.self",
+        "description": "Python Avanzado.Clases.self",
+        "peekOfCode": "usuario1 = Usuario('Germán', 'Colón Carrasquill', 27, 'Medellín', '28827323')\nusuario1.iniciar_sesion()\n# Reasignación \n'''usuario1.nombre = 'Ger'\nusuario1.hora_ultima_sesion = ('06/11/2024')\nprint(usuario1.nombre)\nprint(usuario1.hora_ultima_sesion)'''",
+        "detail": "Python Avanzado.Clases.self",
+        "documentation": {}
+    },
+    {
+        "label": "'''usuario1.nombre",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.self",
+        "description": "Python Avanzado.Clases.self",
+        "peekOfCode": "'''usuario1.nombre = 'Ger'\nusuario1.hora_ultima_sesion = ('06/11/2024')\nprint(usuario1.nombre)\nprint(usuario1.hora_ultima_sesion)'''",
+        "detail": "Python Avanzado.Clases.self",
+        "documentation": {}
+    },
+    {
+        "label": "usuario1.hora_ultima_sesion",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.self",
+        "description": "Python Avanzado.Clases.self",
+        "peekOfCode": "usuario1.hora_ultima_sesion = ('06/11/2024')\nprint(usuario1.nombre)\nprint(usuario1.hora_ultima_sesion)'''",
+        "detail": "Python Avanzado.Clases.self",
+        "documentation": {}
+    },
+    {
+        "label": "Ciudadano",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "description": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "peekOfCode": "class Ciudadano:\n    def __init__(self, nombre, profesion):\n        self.nombre = nombre\n        self.profesion = profesion\n    def saludar(self):\n        print(f'Hola, soy {self.nombre}. Mi profesion es {self.profesion}.')\nclass Medico(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Médico')\n    def curar(self):",
+        "detail": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "documentation": {}
+    },
+    {
+        "label": "Medico",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "description": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "peekOfCode": "class Medico(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Médico')\n    def curar(self):\n        print('Cura cualquier daño')\nclass Qf(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Químico Farmacéutico')\nclass Policia(Ciudadano):\n    def __init__(self, nombre):",
+        "detail": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "documentation": {}
+    },
+    {
+        "label": "Qf",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "description": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "peekOfCode": "class Qf(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Químico Farmacéutico')\nclass Policia(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Policía')\n    def saludar(self):\n        print('Tirate al suelo basura!')\n# Se crean elementos con una misma identidad\npolicia1 = Policia('Raquel')",
+        "detail": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "documentation": {}
+    },
+    {
+        "label": "Policia",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "description": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "peekOfCode": "class Policia(Ciudadano):\n    def __init__(self, nombre):\n        super().__init__(nombre, 'Policía')\n    def saludar(self):\n        print('Tirate al suelo basura!')\n# Se crean elementos con una misma identidad\npolicia1 = Policia('Raquel')\npolicia1.saludar()\nmedico1 = Medico('Miguel')\nmedico1.saludar()",
+        "detail": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "documentation": {}
+    },
+    {
+        "label": "policia1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "description": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "peekOfCode": "policia1 = Policia('Raquel')\npolicia1.saludar()\nmedico1 = Medico('Miguel')\nmedico1.saludar()",
+        "detail": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "documentation": {}
+    },
+    {
+        "label": "medico1",
+        "kind": 5,
+        "importPath": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "description": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "peekOfCode": "medico1 = Medico('Miguel')\nmedico1.saludar()",
+        "detail": "Python Avanzado.Clases.sobrescritura_metodo_atributos",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class A(object):\n    pass\nclass B(A):\n    pass\n#Herencia multiple: una superclase recibe herencia de mas de una clase\n'''class A(object):\n    pass\nclass B(object):\n    pass\nclass C(A, B):",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class B(A):\n    pass\n#Herencia multiple: una superclase recibe herencia de mas de una clase\n'''class A(object):\n    pass\nclass B(object):\n    pass\nclass C(A, B):\n    pass'''\n# Herencia multinivel: Hereda una detras de la otra",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class B(object):\n    pass\nclass C(A, B):\n    pass'''\n# Herencia multinivel: Hereda una detras de la otra\n'''class A(object):\n    pass\nclass B(A):\n    pass\nclass C(B):",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class C(A, B):\n    pass'''\n# Herencia multinivel: Hereda una detras de la otra\n'''class A(object):\n    pass\nclass B(A):\n    pass\nclass C(B):\n    pass\nclass D(C):",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class B(A):\n    pass\nclass C(B):\n    pass\nclass D(C):\n    pass\n# MRO: Orden de resolucion de metodos: Pone en una lista un camino con el recorrido de herencias que se hace.\nprint(D.mro())'''\n# Herencia jerarquica: Cuando hay mas de una subclase de una superclase\n'''class A(object):",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class C(B):\n    pass\nclass D(C):\n    pass\n# MRO: Orden de resolucion de metodos: Pone en una lista un camino con el recorrido de herencias que se hace.\nprint(D.mro())'''\n# Herencia jerarquica: Cuando hay mas de una subclase de una superclase\n'''class A(object):\n    pass\nclass B(A):",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "D",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class D(C):\n    pass\n# MRO: Orden de resolucion de metodos: Pone en una lista un camino con el recorrido de herencias que se hace.\nprint(D.mro())'''\n# Herencia jerarquica: Cuando hay mas de una subclase de una superclase\n'''class A(object):\n    pass\nclass B(A):\n    pass\nclass C(A):",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class B(A):\n    pass\nclass C(A):\n    pass\nclass D(A):\n    pass'''\n#Herencia hibrida: Se mezclan varios tipos de herencias en una misma estructura de clase.",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "C",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class C(A):\n    pass\nclass D(A):\n    pass'''\n#Herencia hibrida: Se mezclan varios tipos de herencias en una misma estructura de clase.",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "D",
+        "kind": 6,
+        "importPath": "Python Avanzado.Clases.tipos_herencia",
+        "description": "Python Avanzado.Clases.tipos_herencia",
+        "peekOfCode": "class D(A):\n    pass'''\n#Herencia hibrida: Se mezclan varios tipos de herencias en una misma estructura de clase.",
+        "detail": "Python Avanzado.Clases.tipos_herencia",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.Crear modulos.modulo",
+        "description": "Python Avanzado parte 2.Crear modulos.modulo",
+        "peekOfCode": "resultado = suma.sumar(1, 10)\nprint(resultado)",
+        "detail": "Python Avanzado parte 2.Crear modulos.modulo",
+        "documentation": {}
+    },
+    {
+        "label": "sumar",
+        "kind": 2,
+        "importPath": "Python Avanzado parte 2.Crear modulos.suma",
+        "description": "Python Avanzado parte 2.Crear modulos.suma",
+        "peekOfCode": "def sumar(a, b):\n    return a + b",
+        "detail": "Python Avanzado parte 2.Crear modulos.suma",
+        "documentation": {}
+    },
+    {
+        "label": "descripcion",
+        "kind": 2,
+        "importPath": "Python Avanzado parte 2.paquete.subpaquete.modulo3",
+        "description": "Python Avanzado parte 2.paquete.subpaquete.modulo3",
+        "peekOfCode": "def descripcion():\n    print('Soy el modulo 3.')",
+        "detail": "Python Avanzado parte 2.paquete.subpaquete.modulo3",
+        "documentation": {}
+    },
+    {
+        "label": "descripcion",
+        "kind": 2,
+        "importPath": "Python Avanzado parte 2.paquete.subpaquete.modulo4",
+        "description": "Python Avanzado parte 2.paquete.subpaquete.modulo4",
+        "peekOfCode": "def descripcion():\n    print('Soy el modulo 4.')",
+        "detail": "Python Avanzado parte 2.paquete.subpaquete.modulo4",
+        "documentation": {}
+    },
+    {
+        "label": "descripcion",
+        "kind": 2,
+        "importPath": "Python Avanzado parte 2.paquete.modulo1",
+        "description": "Python Avanzado parte 2.paquete.modulo1",
+        "peekOfCode": "def descripcion():\n    print('Soy el modulo 1.')\ndef suma(a, b):\n    return a + b",
+        "detail": "Python Avanzado parte 2.paquete.modulo1",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "Python Avanzado parte 2.paquete.modulo1",
+        "description": "Python Avanzado parte 2.paquete.modulo1",
+        "peekOfCode": "def suma(a, b):\n    return a + b",
+        "detail": "Python Avanzado parte 2.paquete.modulo1",
+        "documentation": {}
+    },
+    {
+        "label": "descripcion",
+        "kind": 2,
+        "importPath": "Python Avanzado parte 2.paquete.modulo2",
+        "description": "Python Avanzado parte 2.paquete.modulo2",
+        "peekOfCode": "def descripcion():\n    print('Soy el modulo 2.')",
+        "detail": "Python Avanzado parte 2.paquete.modulo2",
+        "documentation": {}
+    },
+    {
+        "label": "aleatorio",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.importacion_modulos",
+        "description": "Python Avanzado parte 2.importacion_modulos",
+        "peekOfCode": "aleatorio = random.randint(1, 1000)\nprint(aleatorio)'''\n# funcion dir: Devuelve una lista con los nombres definidos de una lista de nombres.\n# Se puede cargar una parte de otro modulo con from.\n'''from random import randint\naleatorio = randint(1, 1000)\nprint(aleatorio)'''\n# Importar todos los elementos 'No muy recomendado'\n'''from random import *\naleatorio = randint(1, 1000)'''",
+        "detail": "Python Avanzado parte 2.importacion_modulos",
+        "documentation": {}
+    },
+    {
+        "label": "aleatorio",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.importacion_modulos",
+        "description": "Python Avanzado parte 2.importacion_modulos",
+        "peekOfCode": "aleatorio = randint(1, 1000)\nprint(aleatorio)'''\n# Importar todos los elementos 'No muy recomendado'\n'''from random import *\naleatorio = randint(1, 1000)'''\n# No se permiten la importancion con * dentro de una funcion o clase.\n# Importacion de multiples modulos.\n'''import math\nimport random'''\n# Importaciones con alias",
+        "detail": "Python Avanzado parte 2.importacion_modulos",
+        "documentation": {}
+    },
+    {
+        "label": "aleatorio",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.importacion_modulos",
+        "description": "Python Avanzado parte 2.importacion_modulos",
+        "peekOfCode": "aleatorio = randint(1, 1000)'''\n# No se permiten la importancion con * dentro de una funcion o clase.\n# Importacion de multiples modulos.\n'''import math\nimport random'''\n# Importaciones con alias\nimport random as rd\naleatorio = rd.randint(1, 1000)\nprint(aleatorio)",
+        "detail": "Python Avanzado parte 2.importacion_modulos",
+        "documentation": {}
+    },
+    {
+        "label": "aleatorio",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.importacion_modulos",
+        "description": "Python Avanzado parte 2.importacion_modulos",
+        "peekOfCode": "aleatorio = rd.randint(1, 1000)\nprint(aleatorio)",
+        "detail": "Python Avanzado parte 2.importacion_modulos",
+        "documentation": {}
+    },
+    {
+        "label": "operacion",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.principal",
+        "description": "Python Avanzado parte 2.principal",
+        "peekOfCode": "operacion = suma(10, 30)\nprint(operacion)'''\n# Importar y dar alias\n'''import paquete.modulo1 as md1\nimport paquete.modulo2 as md2\nmd1.descripcion()\nmd2.descripcion()'''\n# Subpaquetes\n'''import paquete.subpaquete.modulo3 as md3\nimport paquete.subpaquete.modulo4 as md4",
+        "detail": "Python Avanzado parte 2.principal",
+        "documentation": {}
+    },
+    {
+        "label": "funcion",
+        "kind": 2,
+        "importPath": "Python Avanzado parte 2.scope",
+        "description": "Python Avanzado parte 2.scope",
+        "peekOfCode": "def funcion():\n    a = 10\n    b = 'Hola'\n    c = 10.56\n    print(locals)\nfuncion()'''\n# Funcion predefinida VARS: devuelve el atributo dict(Imprime los diccionarios de la clase o lo que sea que tengamos.)\n'''class Usuario:\n    def __init__(self, nombre, apellido, edad):\n        self.nombre = nombre",
+        "detail": "Python Avanzado parte 2.scope",
+        "documentation": {}
+    },
+    {
+        "label": "funcion_externa",
+        "kind": 2,
+        "importPath": "Python Avanzado parte 2.scope",
+        "description": "Python Avanzado parte 2.scope",
+        "peekOfCode": "def funcion_externa():\n    a = 10\n    def funcion_interna():\n        nonlocal a\n        a = 20\n        print(a)\n    funcion_interna()\nfuncion_externa()\n# DIR nos devuelve una lista de nombre ordenada.\nimport math",
+        "detail": "Python Avanzado parte 2.scope",
+        "documentation": {}
+    },
+    {
+        "label": "usuario1",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.scope",
+        "description": "Python Avanzado parte 2.scope",
+        "peekOfCode": "usuario1 = Usuario('Ger', ' Carrs', 27)\nusuario2 = Usuario('Dan', 'Col', 27)\n# Definicion de un atributo diferente a cada objeto\nusuario1.correo = 'nr7german@gmail.com'\nusuario2.correo = 'german.colon@udea.edu.co'\nprint(vars(Usuario), '\\n')\nprint(vars(usuario1))\nprint(vars(usuario2))'''\n# Alcance encerrado: Una funcion hija puede llamar a una funcion madre(cosa que normalmente no se hace)\n'''def funcion_externa():",
+        "detail": "Python Avanzado parte 2.scope",
+        "documentation": {}
+    },
+    {
+        "label": "usuario2",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.scope",
+        "description": "Python Avanzado parte 2.scope",
+        "peekOfCode": "usuario2 = Usuario('Dan', 'Col', 27)\n# Definicion de un atributo diferente a cada objeto\nusuario1.correo = 'nr7german@gmail.com'\nusuario2.correo = 'german.colon@udea.edu.co'\nprint(vars(Usuario), '\\n')\nprint(vars(usuario1))\nprint(vars(usuario2))'''\n# Alcance encerrado: Una funcion hija puede llamar a una funcion madre(cosa que normalmente no se hace)\n'''def funcion_externa():\n    a = 10",
+        "detail": "Python Avanzado parte 2.scope",
+        "documentation": {}
+    },
+    {
+        "label": "usuario1.correo",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.scope",
+        "description": "Python Avanzado parte 2.scope",
+        "peekOfCode": "usuario1.correo = 'nr7german@gmail.com'\nusuario2.correo = 'german.colon@udea.edu.co'\nprint(vars(Usuario), '\\n')\nprint(vars(usuario1))\nprint(vars(usuario2))'''\n# Alcance encerrado: Una funcion hija puede llamar a una funcion madre(cosa que normalmente no se hace)\n'''def funcion_externa():\n    a = 10\n    def funcion_interna():\n        b = 20",
+        "detail": "Python Avanzado parte 2.scope",
+        "documentation": {}
+    },
+    {
+        "label": "usuario2.correo",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.scope",
+        "description": "Python Avanzado parte 2.scope",
+        "peekOfCode": "usuario2.correo = 'german.colon@udea.edu.co'\nprint(vars(Usuario), '\\n')\nprint(vars(usuario1))\nprint(vars(usuario2))'''\n# Alcance encerrado: Una funcion hija puede llamar a una funcion madre(cosa que normalmente no se hace)\n'''def funcion_externa():\n    a = 10\n    def funcion_interna():\n        b = 20\n        print(a, b)",
+        "detail": "Python Avanzado parte 2.scope",
+        "documentation": {}
+    },
+    {
+        "label": "espacio_nombres",
+        "kind": 5,
+        "importPath": "Python Avanzado parte 2.scope",
+        "description": "Python Avanzado parte 2.scope",
+        "peekOfCode": "espacio_nombres = dir()\nif 'math' in espacio_nombres:\n    print('math esta')\nelse:\n    print('math no esta')",
+        "detail": "Python Avanzado parte 2.scope",
+        "documentation": {}
+    },
+    {
+        "label": "saludar",
+        "kind": 2,
+        "importPath": "Python Basico.Bucles.argumentos_claves",
+        "description": "Python Basico.Bucles.argumentos_claves",
+        "peekOfCode": "def saludar(nombre, edad):\n    print(f'Muy buenas, {nombre}')\n    print(f'Usted tiene {edad} años.')\nsaludar('German', 27)\n# Se evitan las complicaciones en la posicion de los argumentos.\nsaludar(edad = 27, nombre = 'German')",
+        "detail": "Python Basico.Bucles.argumentos_claves",
+        "documentation": {}
+    },
+    {
+        "label": "saludar(edad",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.argumentos_claves",
+        "description": "Python Basico.Bucles.argumentos_claves",
+        "peekOfCode": "saludar(edad = 27, nombre = 'German')",
+        "detail": "Python Basico.Bucles.argumentos_claves",
+        "documentation": {}
+    },
+    {
+        "label": "colores",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.break",
+        "description": "Python Basico.Bucles.break",
+        "peekOfCode": "colores = ['rojo','azul', 'verde', 'amarillo']\n#print('- LISTADO DE COLORES-')\nfor color in colores:\n    if color == 'azul':\n        break\n        continue\n    print(f'-color {color}' )",
+        "detail": "Python Basico.Bucles.break",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.bucle_while",
+        "description": "Python Basico.Bucles.bucle_while",
+        "peekOfCode": "i = 1\nwhile i <= 5:\n    print(f'El valor del bucle es: {i}.')\n    i += 1",
+        "detail": "Python Basico.Bucles.bucle_while",
+        "documentation": {}
+    },
+    {
+        "label": "codigo",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.condicional_match",
+        "description": "Python Basico.Bucles.condicional_match",
+        "peekOfCode": "codigo = input(\"Introduzca un codigo HTTP:\")\nmatch codigo:\n    case \"200\":\n        print(\"Todo OK\")\n    case \"301\":\n        print(\"Movimiento permanente de la pagina\")\n    case \"302\":\n        print(\"Movimiento temporarl de la pagina\")\n    case \"404\":\n        print(\"Pagina no encontrada\")",
+        "detail": "Python Basico.Bucles.condicional_match",
+        "documentation": {}
+    },
+    {
+        "label": "colores",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.continue",
+        "description": "Python Basico.Bucles.continue",
+        "peekOfCode": "colores = ['rojo','azul', 'verde', 'amarillo']\n#print('- LISTADO DE COLORES-')\nfor color in colores:\n    if color == 'azul' or color ==  'verde':\n        continue\n    print(f'colo {color}.')",
+        "detail": "Python Basico.Bucles.continue",
+        "documentation": {}
+    },
+    {
+        "label": "saludar",
+        "kind": 2,
+        "importPath": "Python Basico.Bucles.introduccion_funciones",
+        "description": "Python Basico.Bucles.introduccion_funciones",
+        "peekOfCode": "def saludar():\n    nombre = input('Introduzca su nombre, por favor: ')\n    print(f'Muy buenas, {nombre}!')\nsaludar()",
+        "detail": "Python Basico.Bucles.introduccion_funciones",
+        "documentation": {}
+    },
+    {
+        "label": "'''cadena",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.operador_in",
+        "description": "Python Basico.Bucles.operador_in",
+        "peekOfCode": "'''cadena = \"Hola, mundo!\"\nlista_caracteres = list(cadena)\nprint(lista_caracteres)'''\n# Operador In como buscador\n'''texto = \"La programacion es el arte de crear algo de l anada\"\nbuscar = \"arte\" in texto\nprint(buscar)'''\n# In en listas\n'''colores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nbuscar = \"verde\" in colores'''",
+        "detail": "Python Basico.Bucles.operador_in",
+        "documentation": {}
+    },
+    {
+        "label": "lista_caracteres",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.operador_in",
+        "description": "Python Basico.Bucles.operador_in",
+        "peekOfCode": "lista_caracteres = list(cadena)\nprint(lista_caracteres)'''\n# Operador In como buscador\n'''texto = \"La programacion es el arte de crear algo de l anada\"\nbuscar = \"arte\" in texto\nprint(buscar)'''\n# In en listas\n'''colores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nbuscar = \"verde\" in colores'''\ncolores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]",
+        "detail": "Python Basico.Bucles.operador_in",
+        "documentation": {}
+    },
+    {
+        "label": "'''texto",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.operador_in",
+        "description": "Python Basico.Bucles.operador_in",
+        "peekOfCode": "'''texto = \"La programacion es el arte de crear algo de l anada\"\nbuscar = \"arte\" in texto\nprint(buscar)'''\n# In en listas\n'''colores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nbuscar = \"verde\" in colores'''\ncolores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nprint(\"---LISTA DE COLORES---\")\nfor color in colores:\n    print(f\"-{color}\")",
+        "detail": "Python Basico.Bucles.operador_in",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.operador_in",
+        "description": "Python Basico.Bucles.operador_in",
+        "peekOfCode": "buscar = \"arte\" in texto\nprint(buscar)'''\n# In en listas\n'''colores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nbuscar = \"verde\" in colores'''\ncolores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nprint(\"---LISTA DE COLORES---\")\nfor color in colores:\n    print(f\"-{color}\")\n'''if buscar:",
+        "detail": "Python Basico.Bucles.operador_in",
+        "documentation": {}
+    },
+    {
+        "label": "'''colores",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.operador_in",
+        "description": "Python Basico.Bucles.operador_in",
+        "peekOfCode": "'''colores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nbuscar = \"verde\" in colores'''\ncolores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nprint(\"---LISTA DE COLORES---\")\nfor color in colores:\n    print(f\"-{color}\")\n'''if buscar:\n    print(\"Valor encontrado\")\nelse:\n    print(\"Valor no encontrado\")'''",
+        "detail": "Python Basico.Bucles.operador_in",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.operador_in",
+        "description": "Python Basico.Bucles.operador_in",
+        "peekOfCode": "buscar = \"verde\" in colores'''\ncolores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nprint(\"---LISTA DE COLORES---\")\nfor color in colores:\n    print(f\"-{color}\")\n'''if buscar:\n    print(\"Valor encontrado\")\nelse:\n    print(\"Valor no encontrado\")'''",
+        "detail": "Python Basico.Bucles.operador_in",
+        "documentation": {}
+    },
+    {
+        "label": "colores",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.operador_in",
+        "description": "Python Basico.Bucles.operador_in",
+        "peekOfCode": "colores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nprint(\"---LISTA DE COLORES---\")\nfor color in colores:\n    print(f\"-{color}\")\n'''if buscar:\n    print(\"Valor encontrado\")\nelse:\n    print(\"Valor no encontrado\")'''",
+        "detail": "Python Basico.Bucles.operador_in",
+        "documentation": {}
+    },
+    {
+        "label": "saludar",
+        "kind": 2,
+        "importPath": "Python Basico.Bucles.parametros_argumentos",
+        "description": "Python Basico.Bucles.parametros_argumentos",
+        "peekOfCode": "def saludar(nombre, edad):\n    print(f'Muy buenas, {nombre}')\n    print(f'Usted tiene {edad} años.')\nsaludar('German', 27)\nsaludar('Daniel', 27)\n# Parametros son las variables 'nombre' y 'edad'\n# Los argumentos son los valores que estos arrojan, 'German' y '27'\n# Los argumentos son posicionalmente organizados al orden de los parametros.",
+        "detail": "Python Basico.Bucles.parametros_argumentos",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "Python Basico.Bucles.return",
+        "description": "Python Basico.Bucles.return",
+        "peekOfCode": "def suma(numero1, numero2):\n    return numero1 + numero2\n# return siempre debe ir al final de def, para q termine la funcion como tal.\nresultado = suma(10,20)\nsum = resultado *3\nprint(sum)",
+        "detail": "Python Basico.Bucles.return",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.return",
+        "description": "Python Basico.Bucles.return",
+        "peekOfCode": "resultado = suma(10,20)\nsum = resultado *3\nprint(sum)",
+        "detail": "Python Basico.Bucles.return",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.return",
+        "description": "Python Basico.Bucles.return",
+        "peekOfCode": "sum = resultado *3\nprint(sum)",
+        "detail": "Python Basico.Bucles.return",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.while_else",
+        "description": "Python Basico.Bucles.while_else",
+        "peekOfCode": "numero = int(input('Introduzca un numero: '))\nwhile numero < 5:\n    print(f'El numero ingresado es: {numero}.')\n    numero += 1\nelse:\n    print('Codigo desde el bloque else.')",
+        "detail": "Python Basico.Bucles.while_else",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Python Basico.Bucles.while_true",
+        "description": "Python Basico.Bucles.while_true",
+        "peekOfCode": "numero = int(input('Introduzca un numero: '))\nwhile True: # Bucle infinito\n    print(f'El numero es {numero}.')\n    numero += 1 # Se incrementa en 1\n    if numero == 7777: # Se busca detener el bucle cuando llegue a este valor\n        print('El conteo termino.')\n        break # Rompe el bucle cuando este cumpla la condicion IF",
+        "detail": "Python Basico.Bucles.while_true",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "Python Basico.Flujo.codigo_else",
+        "description": "Python Basico.Flujo.codigo_else",
+        "peekOfCode": "edad = 36\n# Evaluamos si es mayor de edad\nif edad >= 18:\n    print(\"Puedes entrar.\")\nelse:\n    print(\"No puedes entrar\")",
+        "detail": "Python Basico.Flujo.codigo_else",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "Python Basico.Flujo.codigo_if",
+        "description": "Python Basico.Flujo.codigo_if",
+        "peekOfCode": "edad = 25\n# Evaluamos si es mayor de edad\nif edad >= 18:\n    print(\"Es mayor de edad.\")",
+        "detail": "Python Basico.Flujo.codigo_if",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "description": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "peekOfCode": "a = 10\nb = 10\ncomparacion = a == b\nprint(comparacion)\n# Diferente Q\na = 10\nb = 10\ncomparacion = a != b\nprint(comparacion)",
+        "detail": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "description": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "peekOfCode": "b = 10\ncomparacion = a == b\nprint(comparacion)\n# Diferente Q\na = 10\nb = 10\ncomparacion = a != b\nprint(comparacion)",
+        "detail": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "description": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "peekOfCode": "comparacion = a == b\nprint(comparacion)\n# Diferente Q\na = 10\nb = 10\ncomparacion = a != b\nprint(comparacion)",
+        "detail": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "description": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "peekOfCode": "a = 10\nb = 10\ncomparacion = a != b\nprint(comparacion)",
+        "detail": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "description": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "peekOfCode": "b = 10\ncomparacion = a != b\nprint(comparacion)",
+        "detail": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "description": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "peekOfCode": "comparacion = a != b\nprint(comparacion)",
+        "detail": "Python Basico.Operadores.operadores_igual_diferente_Q",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "description": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "peekOfCode": "a = 10\nb = 15\ncomparacion = a < b\ncomparacio1 = a > b\nprint(comparacion)\nprint(comparacio1)",
+        "detail": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "description": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "peekOfCode": "b = 15\ncomparacion = a < b\ncomparacio1 = a > b\nprint(comparacion)\nprint(comparacio1)",
+        "detail": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "description": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "peekOfCode": "comparacion = a < b\ncomparacio1 = a > b\nprint(comparacion)\nprint(comparacio1)",
+        "detail": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "documentation": {}
+    },
+    {
+        "label": "comparacio1",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "description": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "peekOfCode": "comparacio1 = a > b\nprint(comparacion)\nprint(comparacio1)",
+        "detail": "Python Basico.Operadores.operadores_mayor_menor_Q",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "description": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "peekOfCode": "a = 10\nb = 10\ncomparacion = a <= b\ncomparacion1 = a >= b\nprint(comparacion)\nprint(comparacion1)",
+        "detail": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "description": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "peekOfCode": "b = 10\ncomparacion = a <= b\ncomparacion1 = a >= b\nprint(comparacion)\nprint(comparacion1)",
+        "detail": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "description": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "peekOfCode": "comparacion = a <= b\ncomparacion1 = a >= b\nprint(comparacion)\nprint(comparacion1)",
+        "detail": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion1",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "description": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "peekOfCode": "comparacion1 = a >= b\nprint(comparacion)\nprint(comparacion1)",
+        "detail": "Python Basico.Operadores.operadores_menor_mayor_igual_Q",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_and",
+        "description": "Python Basico.Operadores.operador_logico_and",
+        "peekOfCode": "a = 15\nb = 17\nc = 13\ncomparacion1 = a < b and b > c\ncomparacion2 = a > b and b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_and",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_and",
+        "description": "Python Basico.Operadores.operador_logico_and",
+        "peekOfCode": "b = 17\nc = 13\ncomparacion1 = a < b and b > c\ncomparacion2 = a > b and b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_and",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_and",
+        "description": "Python Basico.Operadores.operador_logico_and",
+        "peekOfCode": "c = 13\ncomparacion1 = a < b and b > c\ncomparacion2 = a > b and b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_and",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion1",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_and",
+        "description": "Python Basico.Operadores.operador_logico_and",
+        "peekOfCode": "comparacion1 = a < b and b > c\ncomparacion2 = a > b and b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_and",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion2",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_and",
+        "description": "Python Basico.Operadores.operador_logico_and",
+        "peekOfCode": "comparacion2 = a > b and b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_and",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_not",
+        "description": "Python Basico.Operadores.operador_logico_not",
+        "peekOfCode": "a = 15\nb = 17\nc = 13\ncomparacion1 = not a < b or not b > c\ncomparacion2 = not a > b or not b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_not",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_not",
+        "description": "Python Basico.Operadores.operador_logico_not",
+        "peekOfCode": "b = 17\nc = 13\ncomparacion1 = not a < b or not b > c\ncomparacion2 = not a > b or not b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_not",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_not",
+        "description": "Python Basico.Operadores.operador_logico_not",
+        "peekOfCode": "c = 13\ncomparacion1 = not a < b or not b > c\ncomparacion2 = not a > b or not b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_not",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion1",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_not",
+        "description": "Python Basico.Operadores.operador_logico_not",
+        "peekOfCode": "comparacion1 = not a < b or not b > c\ncomparacion2 = not a > b or not b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_not",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion2",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_not",
+        "description": "Python Basico.Operadores.operador_logico_not",
+        "peekOfCode": "comparacion2 = not a > b or not b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_not",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_or",
+        "description": "Python Basico.Operadores.operador_logico_or",
+        "peekOfCode": "a = 15\nb = 17\nc = 13\ncomparacion1 = a < b or b > c\ncomparacion2 = a > b or b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_or",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_or",
+        "description": "Python Basico.Operadores.operador_logico_or",
+        "peekOfCode": "b = 17\nc = 13\ncomparacion1 = a < b or b > c\ncomparacion2 = a > b or b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_or",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_or",
+        "description": "Python Basico.Operadores.operador_logico_or",
+        "peekOfCode": "c = 13\ncomparacion1 = a < b or b > c\ncomparacion2 = a > b or b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_or",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion1",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_or",
+        "description": "Python Basico.Operadores.operador_logico_or",
+        "peekOfCode": "comparacion1 = a < b or b > c\ncomparacion2 = a > b or b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_or",
+        "documentation": {}
+    },
+    {
+        "label": "comparacion2",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_logico_or",
+        "description": "Python Basico.Operadores.operador_logico_or",
+        "peekOfCode": "comparacion2 = a > b or b < c\nprint(comparacion1)\nprint(comparacion2)",
+        "detail": "Python Basico.Operadores.operador_logico_or",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "description": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "peekOfCode": "num1 = 10\nNum2 = 3\ncociente = num1 / Num2\nresto = num1 % Num2\nprint(\"Cociente\", cociente)\nprint(\"Resto\", resto)\n# Operador de division entera\nnum1 = 10\nNum2 = 3\nresultado_entero = num1//Num2",
+        "detail": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "documentation": {}
+    },
+    {
+        "label": "Num2",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "description": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "peekOfCode": "Num2 = 3\ncociente = num1 / Num2\nresto = num1 % Num2\nprint(\"Cociente\", cociente)\nprint(\"Resto\", resto)\n# Operador de division entera\nnum1 = 10\nNum2 = 3\nresultado_entero = num1//Num2\nresultado_decimal = num1/Num2",
+        "detail": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "documentation": {}
+    },
+    {
+        "label": "cociente",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "description": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "peekOfCode": "cociente = num1 / Num2\nresto = num1 % Num2\nprint(\"Cociente\", cociente)\nprint(\"Resto\", resto)\n# Operador de division entera\nnum1 = 10\nNum2 = 3\nresultado_entero = num1//Num2\nresultado_decimal = num1/Num2\nprint(\"resultado_entero\", resultado_entero)",
+        "detail": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "documentation": {}
+    },
+    {
+        "label": "resto",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "description": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "peekOfCode": "resto = num1 % Num2\nprint(\"Cociente\", cociente)\nprint(\"Resto\", resto)\n# Operador de division entera\nnum1 = 10\nNum2 = 3\nresultado_entero = num1//Num2\nresultado_decimal = num1/Num2\nprint(\"resultado_entero\", resultado_entero)\nprint(\"resultado_decimal\", resultado_decimal)",
+        "detail": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "description": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "peekOfCode": "num1 = 10\nNum2 = 3\nresultado_entero = num1//Num2\nresultado_decimal = num1/Num2\nprint(\"resultado_entero\", resultado_entero)\nprint(\"resultado_decimal\", resultado_decimal)\n# Operador de potencia\noperacion=2**10\nprint(\"operacion\", operacion)",
+        "detail": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "documentation": {}
+    },
+    {
+        "label": "Num2",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "description": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "peekOfCode": "Num2 = 3\nresultado_entero = num1//Num2\nresultado_decimal = num1/Num2\nprint(\"resultado_entero\", resultado_entero)\nprint(\"resultado_decimal\", resultado_decimal)\n# Operador de potencia\noperacion=2**10\nprint(\"operacion\", operacion)",
+        "detail": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "documentation": {}
+    },
+    {
+        "label": "resultado_entero",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "description": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "peekOfCode": "resultado_entero = num1//Num2\nresultado_decimal = num1/Num2\nprint(\"resultado_entero\", resultado_entero)\nprint(\"resultado_decimal\", resultado_decimal)\n# Operador de potencia\noperacion=2**10\nprint(\"operacion\", operacion)",
+        "detail": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "documentation": {}
+    },
+    {
+        "label": "resultado_decimal",
+        "kind": 5,
+        "importPath": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "description": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "peekOfCode": "resultado_decimal = num1/Num2\nprint(\"resultado_entero\", resultado_entero)\nprint(\"resultado_decimal\", resultado_decimal)\n# Operador de potencia\noperacion=2**10\nprint(\"operacion\", operacion)",
+        "detail": "Python Basico.Operadores.operador_modulo_division_entera_potencia",
+        "documentation": {}
+    },
+    {
+        "label": "A_cuadrado",
+        "kind": 2,
+        "importPath": "Python Basico.Retos.calcular_area_cuadrado",
+        "description": "Python Basico.Retos.calcular_area_cuadrado",
+        "peekOfCode": "def A_cuadrado():\n    # Solicitar la longitud del lado\n    lado = float(input('Ingresa la longitud del lado:\\n')) # En cm para este y todos los datos.\n    # Calcular el area\n    A = lado * lado\n    # Mostrar el resultado\n    print(f'El area del cuadrado es: {A} cm.')\n    # Calcular el perimero del cuadrado(Suma de cada uno de los laos del cuadrado)\n    P = lado + lado + lado + lado\n    print(f'El perimetro del cuadrado es: {P} cm.')",
+        "detail": "Python Basico.Retos.calcular_area_cuadrado",
+        "documentation": {}
+    },
+    {
+        "label": "lado",
+        "kind": 5,
+        "importPath": "Python Basico.Retos.calcular_area_cuadrado",
+        "description": "Python Basico.Retos.calcular_area_cuadrado",
+        "peekOfCode": "lado = float(input('Ingresa la longitud del lado:\\n')) # En cm para este y todos los datos.\n# Calcular el area\nA = lado * lado\n# Mostrar el resultado\nprint(f'El area del cuadrado es: {A} cm.')\n# Calcular el perimero del cuadrado(Suma de cada uno de los laos del cuadrado)\nP = lado + lado + lado + lado\nprint(f'El perimetro del cuadrado es: {P} cm.')\n# Convertir el ejercicio en funcion\ndef A_cuadrado():",
+        "detail": "Python Basico.Retos.calcular_area_cuadrado",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "Python Basico.Retos.calcular_area_cuadrado",
+        "description": "Python Basico.Retos.calcular_area_cuadrado",
+        "peekOfCode": "A = lado * lado\n# Mostrar el resultado\nprint(f'El area del cuadrado es: {A} cm.')\n# Calcular el perimero del cuadrado(Suma de cada uno de los laos del cuadrado)\nP = lado + lado + lado + lado\nprint(f'El perimetro del cuadrado es: {P} cm.')\n# Convertir el ejercicio en funcion\ndef A_cuadrado():\n    # Solicitar la longitud del lado\n    lado = float(input('Ingresa la longitud del lado:\\n')) # En cm para este y todos los datos.",
+        "detail": "Python Basico.Retos.calcular_area_cuadrado",
+        "documentation": {}
+    },
+    {
+        "label": "P",
+        "kind": 5,
+        "importPath": "Python Basico.Retos.calcular_area_cuadrado",
+        "description": "Python Basico.Retos.calcular_area_cuadrado",
+        "peekOfCode": "P = lado + lado + lado + lado\nprint(f'El perimetro del cuadrado es: {P} cm.')\n# Convertir el ejercicio en funcion\ndef A_cuadrado():\n    # Solicitar la longitud del lado\n    lado = float(input('Ingresa la longitud del lado:\\n')) # En cm para este y todos los datos.\n    # Calcular el area\n    A = lado * lado\n    # Mostrar el resultado\n    print(f'El area del cuadrado es: {A} cm.')",
+        "detail": "Python Basico.Retos.calcular_area_cuadrado",
+        "documentation": {}
+    },
+    {
+        "label": "agregar_tarea",
+        "kind": 2,
+        "importPath": "Python Basico.Retos.funciones",
+        "description": "Python Basico.Retos.funciones",
+        "peekOfCode": "def agregar_tarea(lista):\n    # Entrada para la tarea\n    tarea = input('Introduzca la descripcion de la tarea:\\n')\n    # Añadir tarea al final de la lista\n    lista.append(tarea)\n    # Informe de tarea añadida\n    print('\\nLa tarea se añadio a la lista de tareas pendientes.\\n')\n    # Imprime la tarea añadida\n    print(f'La tarea añadida es : {tarea}.')\n    # Informe del numero de tarea",
+        "detail": "Python Basico.Retos.funciones",
+        "documentation": {}
+    },
+    {
+        "label": "ver_tareas",
+        "kind": 2,
+        "importPath": "Python Basico.Retos.funciones",
+        "description": "Python Basico.Retos.funciones",
+        "peekOfCode": "def ver_tareas(lista):\n    # Condicional que evalua si algo esta en la lista de tareas\n    # Si hay algo en la lista, se presenta\n    if lista:\n        for indice, tarea in enumerate(lista):\n            print(f'{indice + 1}. {tarea}. ')\n    # Si la lista esta vacia, avisa de ellos\n    else:\n        print('No hay tareas pendientes')\n    #Mensaje de fin de listado",
+        "detail": "Python Basico.Retos.funciones",
+        "documentation": {}
+    },
+    {
+        "label": "tarea_completada",
+        "kind": 2,
+        "importPath": "Python Basico.Retos.funciones",
+        "description": "Python Basico.Retos.funciones",
+        "peekOfCode": "def tarea_completada(lista):\n    # Llamamos a la funcion ver_tarea()\n    ver_tareas(lista)\n    if not lista:\n         print('Para marcar tarea completada debe añadir una tarea.')\n    else:\n        # Entrada para que el usuario introduzca una tarea\n        completada = int(input('Introduzca el numero de la tarea a marcar como completada:\\n'))\n        # Condiciones para marcar tareas como completadas\n        if completada > 0 and completada <= len(lista):",
+        "detail": "Python Basico.Retos.funciones",
+        "documentation": {}
+    },
+    {
+        "label": "eliminar_tarea",
+        "kind": 2,
+        "importPath": "Python Basico.Retos.funciones",
+        "description": "Python Basico.Retos.funciones",
+        "peekOfCode": "def eliminar_tarea(lista):\n    # Si la lista contiene algo:\n    if lista:\n        # llamamos a la funcion ver_tareas()\n        ver_tareas(lista)\n        # Entrada para que elusuario introduzca una tarea\n        tarea = int(input('Introduzca el numero de la tarea.\\n'))\n        # Opcion invalida si l atarea no esta en el rango de la lista\n        if tarea <= 0 or tarea > len(lista):\n            print('Opcion invalida.')",
+        "detail": "Python Basico.Retos.funciones",
+        "documentation": {}
+    },
+    {
+        "label": "tareas",
+        "kind": 5,
+        "importPath": "Python Basico.Retos.funciones",
+        "description": "Python Basico.Retos.funciones",
+        "peekOfCode": "tareas = []\n# Funciones del programa\ndef agregar_tarea(lista):\n    # Entrada para la tarea\n    tarea = input('Introduzca la descripcion de la tarea:\\n')\n    # Añadir tarea al final de la lista\n    lista.append(tarea)\n    # Informe de tarea añadida\n    print('\\nLa tarea se añadio a la lista de tareas pendientes.\\n')\n    # Imprime la tarea añadida",
+        "detail": "Python Basico.Retos.funciones",
+        "documentation": {}
+    },
+    {
+        "label": "fecha",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.normas_convenciones_variables",
+        "description": "Python Basico.Strings.normas_convenciones_variables",
+        "peekOfCode": "fecha = \"hola\"\nnombre = 7\na = 2839840\n# Aunque no aparece error este no tiene orden, se debe mejorar la escritura de la variable\"",
+        "detail": "Python Basico.Strings.normas_convenciones_variables",
+        "documentation": {}
+    },
+    {
+        "label": "nombre",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.normas_convenciones_variables",
+        "description": "Python Basico.Strings.normas_convenciones_variables",
+        "peekOfCode": "nombre = 7\na = 2839840\n# Aunque no aparece error este no tiene orden, se debe mejorar la escritura de la variable\"",
+        "detail": "Python Basico.Strings.normas_convenciones_variables",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.normas_convenciones_variables",
+        "description": "Python Basico.Strings.normas_convenciones_variables",
+        "peekOfCode": "a = 2839840\n# Aunque no aparece error este no tiene orden, se debe mejorar la escritura de la variable\"",
+        "detail": "Python Basico.Strings.normas_convenciones_variables",
+        "documentation": {}
+    },
+    {
+        "label": "operacion",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.operaciones_simples",
+        "description": "Python Basico.Strings.operaciones_simples",
+        "peekOfCode": "operacion = 7 + 7\nprint(operacion)\n# OPERADOR DE RESTA\noperacion1 = 7 - 7\nprint(operacion1)\n# OPERADOR DE MULTIPLICACION\noperacion3 = 7 * 7\nprint(operacion3)\n# OPERADOR DE DIVISION\noperacion4 = 7 / 7",
+        "detail": "Python Basico.Strings.operaciones_simples",
+        "documentation": {}
+    },
+    {
+        "label": "operacion1",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.operaciones_simples",
+        "description": "Python Basico.Strings.operaciones_simples",
+        "peekOfCode": "operacion1 = 7 - 7\nprint(operacion1)\n# OPERADOR DE MULTIPLICACION\noperacion3 = 7 * 7\nprint(operacion3)\n# OPERADOR DE DIVISION\noperacion4 = 7 / 7\nprint(operacion4)\n# OPERACION MULTIPLE \noperacion5 = 7 + 7 * 7 / 7 - 7",
+        "detail": "Python Basico.Strings.operaciones_simples",
+        "documentation": {}
+    },
+    {
+        "label": "operacion3",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.operaciones_simples",
+        "description": "Python Basico.Strings.operaciones_simples",
+        "peekOfCode": "operacion3 = 7 * 7\nprint(operacion3)\n# OPERADOR DE DIVISION\noperacion4 = 7 / 7\nprint(operacion4)\n# OPERACION MULTIPLE \noperacion5 = 7 + 7 * 7 / 7 - 7\nprint(operacion5)\n# Operar con nombres de las variables\nnum1=100",
+        "detail": "Python Basico.Strings.operaciones_simples",
+        "documentation": {}
+    },
+    {
+        "label": "operacion4",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.operaciones_simples",
+        "description": "Python Basico.Strings.operaciones_simples",
+        "peekOfCode": "operacion4 = 7 / 7\nprint(operacion4)\n# OPERACION MULTIPLE \noperacion5 = 7 + 7 * 7 / 7 - 7\nprint(operacion5)\n# Operar con nombres de las variables\nnum1=100\nnum2=500\nresultado=num1+num2\nprint(resultado)",
+        "detail": "Python Basico.Strings.operaciones_simples",
+        "documentation": {}
+    },
+    {
+        "label": "operacion5",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.operaciones_simples",
+        "description": "Python Basico.Strings.operaciones_simples",
+        "peekOfCode": "operacion5 = 7 + 7 * 7 / 7 - 7\nprint(operacion5)\n# Operar con nombres de las variables\nnum1=100\nnum2=500\nresultado=num1+num2\nprint(resultado)",
+        "detail": "Python Basico.Strings.operaciones_simples",
+        "documentation": {}
+    },
+    {
+        "label": "saludo",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.tipos_de_datos",
+        "description": "Python Basico.Strings.tipos_de_datos",
+        "peekOfCode": "saludo = \"Hola mundo\"\n# tipo de sato INT(numerico y de cualquier tipo, real o entero)\nedad = 27\n#tipo de dato BOOLEANO(datos tipo falso o verdadero)\nhombre = True\nmujer = False",
+        "detail": "Python Basico.Strings.tipos_de_datos",
+        "documentation": {}
+    },
+    {
+        "label": "edad",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.tipos_de_datos",
+        "description": "Python Basico.Strings.tipos_de_datos",
+        "peekOfCode": "edad = 27\n#tipo de dato BOOLEANO(datos tipo falso o verdadero)\nhombre = True\nmujer = False",
+        "detail": "Python Basico.Strings.tipos_de_datos",
+        "documentation": {}
+    },
+    {
+        "label": "hombre",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.tipos_de_datos",
+        "description": "Python Basico.Strings.tipos_de_datos",
+        "peekOfCode": "hombre = True\nmujer = False",
+        "detail": "Python Basico.Strings.tipos_de_datos",
+        "documentation": {}
+    },
+    {
+        "label": "mujer",
+        "kind": 5,
+        "importPath": "Python Basico.Strings.tipos_de_datos",
+        "description": "Python Basico.Strings.tipos_de_datos",
+        "peekOfCode": "mujer = False",
+        "detail": "Python Basico.Strings.tipos_de_datos",
+        "documentation": {}
+    }
+]
