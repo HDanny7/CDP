@@ -18,7 +18,7 @@ imagenes = os.path.join(carpeta_imagenes, 'imagenes') # ruta completa a la carpe
 carpeta_fondo = os.path.join(imagenes, 'fondo') # Con este comando se obtiene la ruta completa a la carpeta de fondo.
 
 # Cargar fondo
-pintura = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_fondo, 'pintura.jpg'))) # Cargar imagen de fondo
+pintura = ImageTk.PhotoImage(Image.open(os.path.join(carpeta_fondo, 'pintura.jpg')).resize((500, 300))) # Cargar imagen de fondo, resize es un metodo de PIL que redimensiona la imagen a las medidas dadas.
 
 # Creamos una etiqueta
 etiqueta = tk.Label(ventana, image=pintura) # Asignamos la imagen a la etiqueta
