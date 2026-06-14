@@ -6,4 +6,8 @@ base_datos = sqlbd.BaseDatos(**sqlbd.acceso_bd) #crea una instancia de la clase 
 
 #base_datos.eliminar_bd("american_riders") #llama al método eliminar_bd de la instancia base_datos y le pasa como argumento el nombre de la base de datos "prueba" para eliminarla del servidor MySQL
 
-base_datos.crear_bd("american_riders") #llama al método crear_bd de la instancia base_datos y le pasa como argumento el nombre de la base de datos "prueba" para crearla en el servidor MySQL
+#base_datos.crear_bd("american_riders") #llama al método crear_bd de la instancia base_datos y le pasa como argumento el nombre de la base de datos "prueba" para crearla en el servidor MySQL
+
+#base_datos.copia_bd("sakila") #llama al método copia_bd de la instancia base_datos y le pasa como argumento el nombre de la base de datos "prueba" para hacer una copia de seguridad de la base de datos en un archivo con el mismo nombre y extensión .sql en el directorio de respaldo
+
+
